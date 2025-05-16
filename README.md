@@ -14,3 +14,16 @@ To install the ZR Audit Bundle, follow the steps below:
     ```
 
 This command will execute the ZR Audit Bundle installation.
+
+## Required:
+This bundle installs the following:
+- site_audit
+- reroute_email
+- hacked
+- diff
+- unused_modules
+- coder
+- security_review
+- schema
+- upgrade_status
+- phpmd
