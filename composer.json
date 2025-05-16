@@ -7,7 +7,7 @@
     "drupal/site_audit": "^4.1",
     "drupal/reroute_email": "^2.3@RC",
     "drupal/hacked": "^2.0@beta",
-    "drupal/diff": "^2.0@beta",
+    "drupal/diff": "^1.8",
     "drupal/unused_modules": "^1.5",
     "drupal/coder": "^8.3",
     "drupal/security_review": "^3.1",
@@ -16,6 +16,9 @@
   },
   "require-dev": {
     "phpmd/phpmd" : "@stable"
+  },
+  "suggest": {
+    "drupal/sensitive_data"
   },
   "authors": [
     {
