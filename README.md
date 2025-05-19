@@ -1,5 +1,6 @@
-# ZR Audit Bundle Installation Guide
+# ZR Audit Bundle Guide
 
+## Installation
 To install the ZR Audit Bundle, follow the steps below:
 
 1. Ensure the below has been added to the `composer.json` **installer-paths**:
@@ -14,6 +15,13 @@ To install the ZR Audit Bundle, follow the steps below:
     ```
 
 This command will execute the ZR Audit Bundle installation.
+
+You should also get https://www.drupal.org/project/sensitive_data. To do this:
+- `cd ~/.drush/commands`
+- `git clone https://git.drupalcode.org/project/sensitive_data.git`
+- `drush cc drush`
+
+## Usage:
 
 ## Required:
 This bundle installs the following:
