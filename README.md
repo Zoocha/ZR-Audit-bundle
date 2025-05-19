@@ -3,12 +3,19 @@
 ## Installation
 To install the ZR Audit Bundle, follow the steps below:
 
-1. Ensure the below has been added to the `composer.json` **installer-paths**:
+1. Ensure the below has been added to the `composer.json` **repositories** before the drupal repository:
+   ```json
+   {
+      "type": "vcs",
+      "url": "https://git.drupalcode.org/issue/schema-3465075"
+   },
+   ```
+2. Ensure the below has been added to the `composer.json` **installer-paths**:
     ```sh
     "web/recipes/custom/{$name}": ["type:drupal-recipe"]
     ```
-2. Run `composer require zr/zr-audit-bundle`
-3. Run the following command (within the `/web` directory):
+3. Run `composer require zr/zr-audit-bundle`
+4. Run the following command (within the `/web` directory):
 
     ```sh
     ddev drush recipe recipes/custom/zr-audit-bundle

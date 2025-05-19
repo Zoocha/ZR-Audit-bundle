@@ -11,7 +11,7 @@
     "drupal/unused_modules": "^1.5",
     "drupal/coder": "^8.3",
     "drupal/security_review": "^3.1",
-    "drupal/schema": "^2.0@alpha",
+    "drupal/schema": "dev-3465075-drupal-11-compatibility-2",
     "drupal/upgrade_status": "^4.3"
   },
   "require-dev": {
