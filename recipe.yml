@@ -8,9 +8,17 @@ install:
   - hacked
   - diff
   - unused_modules
-  - coder
   - security_review
   - schema
   - upgrade_status
 config:
   strict: false
+  import:
+    site_audit: '*'
+    reroute_email: '*'
+    hacked: '*'
+    diff: '*'
+    unused_modules: '*'
+    security_review: '*'
+    schema: '*'
+    upgrade_status: '*'

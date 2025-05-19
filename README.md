@@ -3,7 +3,7 @@
 ## Installation
 To install the ZR Audit Bundle, follow the steps below:
 
-1. Ensure the below has been added to the `composer.json` **repositories** before the drupal repository:
+1. Ensure the below has been added to the `composer.json` **repositories** before the drupal repository if you're on Drupal 11:
    ```json
    {
       "type": "vcs",
